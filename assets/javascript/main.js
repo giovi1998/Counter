@@ -66,18 +66,3 @@ plusNumberInput(myButtonsPlus);
 minusNumberInput(myButtonsMinus);
 eraseInput(myButtonsErase);
 helpInput(myButtonsHelp);
-
-/*-------Old way see also index.html STATIC WAY-------
-In common.js:
-//Takes HTML elements
-export const myButtonsPlus = document.querySelector(".button.buttonPlus"); //select button plus +
-export const myButtonsMinus = document.querySelector(".button.buttonMinus"); //select button minus -
-export const myButtonsErase = document.querySelector(".button.buttonErase"); //select button Erase
-export const myButtonsHelp = document.querySelector(".button.buttonHelp"); //select button Help
-
-In main.js you import allthe button from HTML index.html:
-import {myButtonsPlus} from "./modules/common.js";
-import {myButtonsMinus} from "./modules/common.js";
-import {myButtonsErase} from "./modules/common.js";
-import {myButtonsHelp} from "./modules/common.js";
-*/
